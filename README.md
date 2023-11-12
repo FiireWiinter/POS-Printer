@@ -15,8 +15,8 @@ main.py >> set type of printer and connection details
 {
     [
         {
-            "action": "text | image | cut | (qr)",
-            "content": "msg | url | --- | (content)"
+            "action": "text | (image) | cut | (qr)",
+            "content": "msg |  (url)  | --- | (content)"
         }
     ], [...]
 }

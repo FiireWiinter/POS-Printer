@@ -1,4 +1,7 @@
 printer:
-  type: Dummy
-  host: 127.0.0.1
-  port: 9000
+  type: Usb
+  idVendor: 0x0FE6 
+  idProduct: 0x811E
+  in_ep: 0x81
+  out_ep: 0x01
+# used by python-escpos
